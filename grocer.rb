@@ -10,6 +10,7 @@ def consolidate_cart(cart)
         updated_cart[item_name][:count] = 1
       else
         updated_cart[item_name][:count] += 1
+        binding.pry
       end
     end
   end
